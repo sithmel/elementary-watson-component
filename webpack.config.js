@@ -4,7 +4,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 module.exports = {
   entry: './lib/index.jsx',
   output: {
-    path: path.resolve(__dirname, 'es5'),
+    path: path.resolve(__dirname, 'dist'),
     filename: 'index.js',
     libraryTarget: 'umd',
     library: 'ElementaryWatsonComponent'
